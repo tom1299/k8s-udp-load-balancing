@@ -29,7 +29,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: ./k8s-udp-client
-          file: ./Dockerfile
+          file: ./k8s-udp-client/Dockerfile
           platforms: linux/amd64,linux/arm64,linux/386
           push: true
           tags: ghcr.io/tom1299/k8s-udp-load-balancing/udp-client:latest
