@@ -21,7 +21,7 @@ spec:
         - "dns-server"
       containers:
       - name: udp-nginx
-        image: docker.pkg.github.com/tom1299/k8s-udp-load-balancing/nginx
+        image: ghcr.io/tom1299/k8s-udp-load-balancing/udp-nginx:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 5353

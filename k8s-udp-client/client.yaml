@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: udp-client
-        image: docker.pkg.github.com/tom1299/k8s-udp-load-balancing/udp-client
+        image: ghcr.io/tom1299/k8s-udp-load-balancing/udp-client:latest
         imagePullPolicy: Always
         env:
         - name: SERVER_ADDRESS
