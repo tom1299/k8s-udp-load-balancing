@@ -26,8 +26,6 @@ spec:
         ports:
         - containerPort: 5353
           protocol: UDP
-      imagePullSecrets:
-      - name: regcred
 ---
 apiVersion: v1
 kind: Service

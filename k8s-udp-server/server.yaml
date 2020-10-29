@@ -42,8 +42,6 @@ spec:
               - /tmp/healthy
           failureThreshold: 30
           periodSeconds: 10
-      imagePullSecrets:
-      - name: regcred
 ---
 apiVersion: v1
 kind: Service
